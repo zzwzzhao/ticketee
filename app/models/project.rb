@@ -9,4 +9,8 @@ class Project < ActiveRecord::Base
   }
 
   validates :name, :presence => true, :uniqueness => true
+
+  def self.for(user)
+    user.admin? ? Project : Project.readable_by(user)
+  end
 end
