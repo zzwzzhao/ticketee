@@ -8,6 +8,10 @@ Ticketee::Application.routes.draw do
     :to => "users#confirmation",
     :as => 'confirm_user'
 
+  put '/admin/users/:user_id/permissions',
+    :to => 'admin/permissions#update',
+    :as => :update_user_permissions
+
   root :to => "projects#index"
 
   resources :projects do
@@ -16,7 +20,9 @@ Ticketee::Application.routes.draw do
 
   namespace :admin do
     root :to => "base#index"
-    resources :users
+    resources :users do
+      resources :permissions
+    end
   end
   # The priority is based upon order of creation:
   # first created -> highest priority.
