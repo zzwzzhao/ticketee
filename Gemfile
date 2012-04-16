@@ -25,6 +25,8 @@ gem 'jquery-rails'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
+  gem 'annotate', '~> 2.4.1.beta'
+
 end
 
 group :test do
