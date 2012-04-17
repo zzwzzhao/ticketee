@@ -42,6 +42,7 @@ gem 'devise', '~> 1.4.3'
 gem 'cancan'
 
 gem 'paperclip'
+gem 'searcher'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
