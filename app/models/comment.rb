@@ -9,6 +9,8 @@ class Comment < ActiveRecord::Base
   belongs_to :previous_state, :class_name => "State"
   delegate :project, :to => :ticket
 
+  after_create :creator_watches_ticket
+
   validates :text, :presence => true
 
   private
@@ -20,5 +22,9 @@ class Comment < ActiveRecord::Base
     def set_ticket_state
       self.ticket.state = self.state
       self.ticket.save!
+    end
+
+    def creator_watches_ticket
+      ticket.watchers << user
     end
 end
