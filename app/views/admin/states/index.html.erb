@@ -3,8 +3,13 @@
 <ul id="states">
   <% for state in @states %>
     <li id="state_<%= state.id %>">
-      <%= state.name %>
+    <%= state.name %>
+    <% if state.default? %>
+      (Default)
+    <% else %>
       <%= link_to "Make default", make_default_admin_state_path(state) %>
+    <% end %>
+
     </li>
   <% end %>
 </ul>
