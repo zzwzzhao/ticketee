@@ -4,12 +4,17 @@ class Ticket < ActiveRecord::Base
     label :state, :from => :state, :field => :name
   end
 
+
   belongs_to :project
   belongs_to :user
   belongs_to :state
   has_many :assets
   has_many :comments
   has_and_belongs_to_many :tags
+  has_and_belongs_to_many :watchers, :join_table => "ticket_watchers",
+    :class_name => "User"
+
+  after_create :creator_watches_me
   accepts_nested_attributes_for :assets
 
   attr_accessible :description, :title, :user, :assets_attributes, :asset
@@ -25,6 +30,12 @@ class Ticket < ActiveRecord::Base
 
     self.tags << tags
   end
+
+  private
+
+    def creator_watches_me
+      self.watchers << user
+    end
 
 
 
