@@ -26,11 +26,11 @@ describe "/api/v1/projects", :type => :api do
       projects = JSON.parse(last_response.body)
 
       projects.any? do |p|
-        p["name"] == "Ticketee"
+        p["project"]["name"] == "Ticketee"
       end.should be_true
 
       projects.any? do |p|
-        p["name"] == "Access Denied"
+        p["project"]["name"] == "Access Denied"
       end.should be_false
     end
 
@@ -68,6 +68,26 @@ describe "/api/v1/projects", :type => :api do
       last_response.status.should eql(422)
       errors = { "errors" => { "name" => ["can't be blank"]}}.to_json
       last_response.body.should eql(errors)
+    end
+  end
+
+  context "show" do
+    let(:url) { "/apis/v1/projects/#{@project.id}"}
+
+    before do
+      Factory(:ticket, :project => @project)
+    end
+
+    it "JSON" do
+      get "#{url}.json", :token => token
+      project = @project.to_json(:methods => "last_ticket")
+      last_response.body.should eql(project)
+      last_response.status.should eql(200)
+
+      project_response = JSON.parse(last_response.body)["project"]
+
+      ticket_title = project_response["last_ticket"]["ticket"]["title"]
+      ticket_title.should_not be_blank
     end
   end
 end

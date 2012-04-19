@@ -13,6 +13,10 @@ class Project < ActiveRecord::Base
   def self.for(user)
     user.admin? ? Project : Project.readable_by(user)
   end
+
+  def last_ticket
+    tickets.last
+  end
 end
 # == Schema Information
 #
