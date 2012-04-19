@@ -90,4 +90,32 @@ describe "/api/v1/projects", :type => :api do
       ticket_title.should_not be_blank
     end
   end
+
+  context "updating a project" do
+    before do
+      user.admin = true
+      user.save
+    end
+
+    let(:url) {"/apis/v1/projects/#{@project.id}" }
+    it "successful JSON" do
+      @project.name.should eql("Ticketee")
+      put "#{url}.json", :token => token, :project => { :name => "Not Ticketee" }
+
+      last_response.status.should eql(204)
+      @project.reload
+      @project.name.should eql("Not Ticketee")
+      last_response.body.should eql("")
+    end
+
+    it "unsuccessful JSON" do
+      @project.name.should eql("Ticketee")
+      put "#{url}.json", :token => token, :project => { :name => ""}
+      last_response.status.should eql(422)
+      @project.reload
+      @project.name.should eql("Ticketee")
+      errors = {"errors" => { :name => ["can't be blank"]}}
+      last_response.body.should eql(errors.to_json)
+    end
+  end
 end
