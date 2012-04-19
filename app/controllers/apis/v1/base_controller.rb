@@ -1,7 +1,7 @@
 class Apis::V1::BaseController < ActionController::Base
   before_filter :authenticate_user
 
-  respond_to :json
+  respond_to :json, :xml
 
   private
     def authenticate_user
