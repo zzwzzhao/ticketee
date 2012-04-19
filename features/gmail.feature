@@ -16,17 +16,17 @@ Feature: Gmail
       | title        | description       |
       | Release date | TBA very shortly. |
 
-  Scenario: Receiving a real-world email
-    Given I am signed in as "alice@ticketee.com"
-    Given I am on the homepage
-    When I follow "TextMate 2"
-    And I follow "Release date"
-    And I fill in "Text" with "Posting a comment!"
-    And I press "Create Comment"
-    Then I should see "Comment has been created."
+      # Scenario: Receiving a real-world email
+      #Given I am signed in as "alice@ticketee.com"
+      #Given I am on the homepage
+      #When I follow "TextMate 2"
+      #And I follow "Release date"
+      #And I fill in "Text" with "Posting a comment!"
+      #And I press "Create Comment"
+      #Then I should see "Comment has been created."
 
-    When I log into gmail with:
-      | username              | password    |
-      | zzwzzhao@gmail.com    | zzwz1987    |
-    Then there should be an email from Ticketee in my inbox
+    #    When I log into gmail with:
+    #   | username              | password    |
+    #  | zzwzzhao@gmail.com    | zzwz1987    |
+      #   Then there should be an email from Ticketee in my inbox
 

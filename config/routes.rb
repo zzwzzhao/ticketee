@@ -1,6 +1,9 @@
 Ticketee::Application.routes.draw do
-
-
+  namespace :apis do
+    namespace :v1 do
+      resources :projects
+    end
+  end
 
   devise_for :users, :controllers => { :registrations => "registrations" }
 
