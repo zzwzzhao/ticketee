@@ -54,7 +54,7 @@ gem 'paperclip'
 gem 'searcher'
 
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 # To use ActiveModel has_secure_password
