@@ -55,6 +55,7 @@ gem 'cancan'
 
 gem 'paperclip'
 gem 'searcher'
+gem 'kaminari'
 
 group :production do
   gem 'mysql2'
