@@ -1,0 +1,197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ability	app/models/ability.rb	/^class Ability$/;"	c
+ActionController	spec/support/api/helper.rb	/^class ActionController::TestCase$/;"	c
+AddAdminToUsers	db/migrate/20120414151935_add_admin_to_users.rb	/^class AddAdminToUsers < ActiveRecord::Migration$/;"	c
+AddAttachmentAssetToTickets	db/migrate/20120416042022_add_attachment_asset_to_tickets.rb	/^class AddAttachmentAssetToTickets < ActiveRecord::Migration$/;"	c
+AddAuthenticationTokenToUsers	db/migrate/20120418131742_add_authentication_token_to_users.rb	/^class AddAuthenticationTokenToUsers < ActiveRecord::Migration$/;"	c
+AddConfirmableFieldsToUsers	db/migrate/20120414045458_add_confirmable_fields_to_users.rb	/^class AddConfirmableFieldsToUsers < ActiveRecord::Migration$/;"	c
+AddDefaultToStates	db/migrate/20120417034103_add_default_to_states.rb	/^class AddDefaultToStates < ActiveRecord::Migration$/;"	c
+AddPreviousStateIdToComments	db/migrate/20120416234815_add_previous_state_id_to_comments.rb	/^class AddPreviousStateIdToComments < ActiveRecord::Migration$/;"	c
+AddRequestCountToUsers	db/migrate/20120420084500_add_request_count_to_users.rb	/^class AddRequestCountToUsers < ActiveRecord::Migration$/;"	c
+AddUserIdToTickets	db/migrate/20120414090136_add_user_id_to_tickets.rb	/^class AddUserIdToTickets < ActiveRecord::Migration$/;"	c
+Admin	app/controllers/admin/base_controller.rb	/^class Admin::BaseController < ApplicationController$/;"	c
+Admin	app/controllers/admin/permissions_controller.rb	/^class Admin::PermissionsController < Admin::BaseController$/;"	c
+Admin	app/controllers/admin/states_controller.rb	/^class Admin::StatesController < Admin::BaseController$/;"	c
+Admin	app/controllers/admin/users_controller.rb	/^class Admin::UsersController < Admin::BaseController$/;"	c
+Admin	app/helpers/admin/permissions_helper.rb	/^module Admin::PermissionsHelper$/;"	m
+Admin	app/helpers/admin/states_helper.rb	/^module Admin::StatesHelper$/;"	m
+Admin	app/helpers/admin/users_helper.rb	/^module Admin::UsersHelper$/;"	m
+AmendTicketWatchersTable	db/migrate/20120417172150_amend_ticket_watchers_table.rb	/^class AmendTicketWatchersTable < ActiveRecord::Migration$/;"	c
+ApiHelper	spec/support/api/helper.rb	/^module ApiHelper$/;"	m
+Apis	app/controllers/apis/v1/base_controller.rb	/^class Apis::V1::BaseController < ActionController::Base$/;"	c
+Apis	app/controllers/apis/v1/projects_controller.rb	/^class Apis::V1::ProjectsController < Apis::V1::BaseController$/;"	c
+Apis	app/controllers/apis/v1/tickets_controller.rb	/^class Apis::V1::TicketsController < Apis::V1::BaseController$/;"	c
+Apis	app/controllers/apis/v2/base_controller.rb	/^class Apis::V2::BaseController < ActionController::Base$/;"	c
+Apis	app/controllers/apis/v2/projects_controller.rb	/^class Apis::V2::ProjectsController < Apis::V2::BaseController$/;"	c
+Apis	app/controllers/apis/v2/tickets_controller.rb	/^class Apis::V2::TicketsController < Apis::V2::BaseController$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Ticketee
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Asset	app/models/asset.rb	/^class Asset < ActiveRecord::Base$/;"	c
+AssetsController	app/controllers/assets_controller.rb	/^class AssetsController < ApplicationController$/;"	c
+AssetsHelper	app/helpers/assets_helper.rb	/^module AssetsHelper$/;"	m
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentObserver	app/observers/comment_observer.rb	/^class CommentObserver < ActiveRecord::Observer$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+CreateAssets	db/migrate/20120416073505_create_assets.rb	/^class CreateAssets < ActiveRecord::Migration$/;"	c
+CreateComments	db/migrate/20120416142305_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePermissions	db/migrate/20120415081615_create_permissions.rb	/^class CreatePermissions < ActiveRecord::Migration$/;"	c
+CreateProjects	db/migrate/20120411160333_create_projects.rb	/^class CreateProjects < ActiveRecord::Migration$/;"	c
+CreateStates	db/migrate/20120416155905_create_states.rb	/^class CreateStates < ActiveRecord::Migration$/;"	c
+CreateTags	db/migrate/20120417082346_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
+CreateTicketWatchersTable	db/migrate/20120417170917_create_ticket_watchers_table.rb	/^class CreateTicketWatchersTable < ActiveRecord::Migration$/;"	c
+CreateTickets	db/migrate/20120413170406_create_tickets.rb	/^class CreateTickets < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20120414034144_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+EmailHelpers	features/step_definitions/email_steps.rb	/^module EmailHelpers$/;"	m
+FilesController	app/controllers/files_controller.rb	/^class FilesController < ApplicationController$/;"	c
+FilesHelper	app/helpers/files_helper.rb	/^module FilesHelper$/;"	m
+HtmlSelectorsHelpers	features/support/selectors.rb	/^module HtmlSelectorsHelpers$/;"	m
+NavigationHelpers	features/support/paths.rb	/^module NavigationHelpers$/;"	m
+Notifier	app/mailers/notifier.rb	/^class Notifier < ActionMailer::Base$/;"	c
+Permission	app/models/permission.rb	/^class Permission < ActiveRecord::Base$/;"	c
+Project	app/models/project.rb	/^class Project < ActiveRecord::Base$/;"	c
+ProjectsController	app/controllers/projects_controller.rb	/^class ProjectsController < ApplicationController$/;"	c
+ProjectsHelper	app/helpers/projects_helper.rb	/^module ProjectsHelper$/;"	m
+RegistrationsController	app/controllers/registrations_controller.rb	/^class RegistrationsController < Devise::RegistrationsController$/;"	c
+RegistrationsHelper	app/helpers/registrations_helper.rb	/^module RegistrationsHelper$/;"	m
+SeedHelpers	spec/support/seed_helpers.rb	/^module SeedHelpers$/;"	m
+State	app/models/state.rb	/^class State < ActiveRecord::Base$/;"	c
+Tag	app/models/tag.rb	/^class Tag < ActiveRecord::Base$/;"	c
+TagsController	app/controllers/tags_controller.rb	/^class TagsController < ApplicationController$/;"	c
+TagsHelper	app/helpers/tags_helper.rb	/^module TagsHelper$/;"	m
+Ticket	app/models/ticket.rb	/^class Ticket < ActiveRecord::Base$/;"	c
+Ticketee	config/application.rb	/^module Ticketee$/;"	m
+TicketsController	app/controllers/tickets_controller.rb	/^class TicketsController < ApplicationController$/;"	c
+TicketsHelper	app/helpers/tickets_helper.rb	/^module TicketsHelper$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+WithinHelpers	features/step_definitions/web_steps.rb	/^module WithinHelpers$/;"	m
+admins_only	app/helpers/application_helper.rb	/^  def admins_only(&block)$/;"	f	class:ApplicationHelper
+after_create	app/observers/comment_observer.rb	/^  def after_create(comment)$/;"	f	class:CommentObserver
+after_inactive_sign_up_path_for	app/controllers/registrations_controller.rb	/^    def after_inactive_sign_up_path_for(resource)$/;"	f	class:RegistrationsController
+app	spec/support/api/helper.rb	/^  def app$/;"	f	class:ApiHelper
+authenticate_user	app/controllers/apis/v1/base_controller.rb	/^    def authenticate_user$/;"	f	class:Apis
+authenticate_user	app/controllers/apis/v2/base_controller.rb	/^    def authenticate_user$/;"	f	class:Apis
+authorize_admin!	app/controllers/apis/v1/base_controller.rb	/^    def authorize_admin!$/;"	f	class:Apis
+authorize_admin!	app/controllers/apis/v2/base_controller.rb	/^    def authorize_admin!$/;"	f	class:Apis
+authorize_admin!	app/controllers/application_controller.rb	/^    def authorize_admin!$/;"	f	class:ApplicationController
+authorize_create!	app/controllers/tickets_controller.rb	/^    def authorize_create!$/;"	f	class:TicketsController
+authorize_delete!	app/controllers/tickets_controller.rb	/^    def authorize_delete!$/;"	f	class:TicketsController
+authorize_update!	app/controllers/tickets_controller.rb	/^    def authorize_update!$/;"	f	class:TicketsController
+authorized?	app/helpers/application_helper.rb	/^  def authorized?(permission, thing, &block)$/;"	f	class:ApplicationHelper
+cannot_create_tickets!	spec/controllers/tickets_controller_spec.rb	/^      def cannot_create_tickets!$/;"	f
+cannot_update_tickets!	spec/controllers/tickets_controller_spec.rb	/^      def cannot_update_tickets!$/;"	f
+change	db/migrate/20120411160333_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
+change	db/migrate/20120413170406_create_tickets.rb	/^  def change$/;"	f	class:CreateTickets
+change	db/migrate/20120414045458_add_confirmable_fields_to_users.rb	/^  def change$/;"	f	class:AddConfirmableFieldsToUsers
+change	db/migrate/20120414090136_add_user_id_to_tickets.rb	/^  def change$/;"	f	class:AddUserIdToTickets
+change	db/migrate/20120414151935_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
+change	db/migrate/20120415081615_create_permissions.rb	/^  def change$/;"	f	class:CreatePermissions
+change	db/migrate/20120416073505_create_assets.rb	/^  def change$/;"	f	class:CreateAssets
+change	db/migrate/20120416142305_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+change	db/migrate/20120416234815_add_previous_state_id_to_comments.rb	/^  def change$/;"	f	class:AddPreviousStateIdToComments
+change	db/migrate/20120417034103_add_default_to_states.rb	/^  def change$/;"	f	class:AddDefaultToStates
+change	db/migrate/20120417082346_create_tags.rb	/^  def change$/;"	f	class:CreateTags
+change	db/migrate/20120417170917_create_ticket_watchers_table.rb	/^  def change$/;"	f	class:CreateTicketWatchersTable
+change	db/migrate/20120417172150_amend_ticket_watchers_table.rb	/^  def change$/;"	f	class:AmendTicketWatchersTable
+change	db/migrate/20120418131742_add_authentication_token_to_users.rb	/^  def change$/;"	f	class:AddAuthenticationTokenToUsers
+change	db/migrate/20120420084500_add_request_count_to_users.rb	/^  def change$/;"	f	class:AddRequestCountToUsers
+check_rate_limit	app/controllers/apis/v1/base_controller.rb	/^    def check_rate_limit$/;"	f	class:Apis
+check_rate_limit	app/controllers/apis/v2/base_controller.rb	/^    def check_rate_limit$/;"	f	class:Apis
+comment_updated	app/mailers/notifier.rb	/^  def comment_updated(comment, user)$/;"	f	class:Notifier
+confirmation	app/controllers/users_controller.rb	/^  def confirmation$/;"	f	class:UsersController
+create	app/controllers/admin/states_controller.rb	/^  def create$/;"	f	class:Admin
+create	app/controllers/admin/users_controller.rb	/^  def create$/;"	f	class:Admin
+create	app/controllers/apis/v1/projects_controller.rb	/^  def create$/;"	f	class:Apis
+create	app/controllers/apis/v2/projects_controller.rb	/^  def create$/;"	f	class:Apis
+create	app/controllers/comments_controller.rb	/^  def create$/;"	f	class:CommentsController
+create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
+create	app/controllers/tickets_controller.rb	/^  def create$/;"	f	class:TicketsController
+create_permission	features/step_definitions/permission_steps.rb	/^def create_permission(email, object, action)$/;"	f
+create_user!	spec/support/seed_helpers.rb	/^  def create_user!(attributes={})$/;"	f	class:SeedHelpers
+creator_watches_me	app/models/ticket.rb	/^    def creator_watches_me$/;"	f
+creator_watches_ticket	app/models/comment.rb	/^    def creator_watches_ticket$/;"	f	class:Comment
+current_email_address	features/step_definitions/email_steps.rb	/^  def current_email_address$/;"	f	class:EmailHelpers
+current_user	app/controllers/apis/v1/base_controller.rb	/^    def current_user$/;"	f	class:Apis
+current_user	app/controllers/apis/v2/base_controller.rb	/^    def current_user$/;"	f	class:Apis
+default!	app/models/state.rb	/^  def default!$/;"	f	class:State
+destroy	app/controllers/admin/users_controller.rb	/^  def destroy$/;"	f	class:Admin
+destroy	app/controllers/apis/v1/projects_controller.rb	/^  def destroy$/;"	f	class:Apis
+destroy	app/controllers/apis/v2/projects_controller.rb	/^  def destroy$/;"	f	class:Apis
+destroy	app/controllers/projects_controller.rb	/^  def destroy$/;"	f	class:ProjectsController
+destroy	app/controllers/tickets_controller.rb	/^  def destroy$/;"	f	class:TicketsController
+down	db/migrate/20120414034144_devise_create_users.rb	/^  def self.down$/;"	F	class:DeviseCreateUsers
+down	db/migrate/20120416042022_add_attachment_asset_to_tickets.rb	/^  def self.down$/;"	F	class:AddAttachmentAssetToTickets
+down	db/migrate/20120416155905_create_states.rb	/^  def down$/;"	f	class:CreateStates
+edit	app/controllers/admin/users_controller.rb	/^  def edit$/;"	f	class:Admin
+edit	app/controllers/projects_controller.rb	/^  def edit$/;"	f	class:ProjectsController
+edit	app/controllers/tickets_controller.rb	/^  def edit$/;"	f	class:TicketsController
+find_project	app/controllers/apis/v1/projects_controller.rb	/^    def find_project$/;"	f	class:Apis
+find_project	app/controllers/apis/v1/tickets_controller.rb	/^    def find_project$/;"	f	class:Apis
+find_project	app/controllers/apis/v2/projects_controller.rb	/^    def find_project$/;"	f	class:Apis
+find_project	app/controllers/apis/v2/tickets_controller.rb	/^    def find_project$/;"	f	class:Apis
+find_project	app/controllers/projects_controller.rb	/^    def find_project$/;"	f	class:ProjectsController
+find_project	app/controllers/tickets_controller.rb	/^    def find_project$/;"	f	class:TicketsController
+find_project	features/step_definitions/permission_steps.rb	/^def find_project(name)$/;"	f
+find_states	app/controllers/application_controller.rb	/^    def find_states$/;"	f	class:ApplicationController
+find_ticket	app/controllers/comments_controller.rb	/^    def find_ticket$/;"	f	class:CommentsController
+find_ticket	app/controllers/tickets_controller.rb	/^    def find_ticket$/;"	f	class:TicketsController
+find_user	app/controllers/admin/permissions_controller.rb	/^    def find_user$/;"	f	class:Admin
+find_user	app/controllers/admin/users_controller.rb	/^    def find_user$/;"	f	class:Admin
+for	app/models/project.rb	/^  def self.for(user)$/;"	F	class:Project
+index	app/controllers/admin/base_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/admin/permissions_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/admin/states_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/admin/users_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/apis/v1/projects_controller.rb	/^  def index$/;"	f	class:Apis
+index	app/controllers/apis/v1/tickets_controller.rb	/^  def index$/;"	f	class:Apis
+index	app/controllers/apis/v2/projects_controller.rb	/^  def index$/;"	f	class:Apis
+index	app/controllers/apis/v2/tickets_controller.rb	/^  def index$/;"	f	class:Apis
+index	app/controllers/projects_controller.rb	/^  def index$/;"	f	class:ProjectsController
+initialize	app/models/ability.rb	/^  def initialize(user)$/;"	f	class:Ability
+last_ticket	app/models/project.rb	/^  def last_ticket$/;"	f	class:Project
+make_default	app/controllers/admin/states_controller.rb	/^  def make_default$/;"	f	class:Admin
+new	app/controllers/admin/states_controller.rb	/^  def new$/;"	f	class:Admin
+new	app/controllers/admin/users_controller.rb	/^  def new$/;"	f	class:Admin
+new	app/controllers/files_controller.rb	/^  def new$/;"	f	class:FilesController
+new	app/controllers/projects_controller.rb	/^  def new$/;"	f	class:ProjectsController
+new	app/controllers/tickets_controller.rb	/^  def new$/;"	f	class:TicketsController
+path_to	features/support/paths.rb	/^  def path_to(page_name)$/;"	f	class:NavigationHelpers
+permissions	app/helpers/admin/permissions_helper.rb	/^  def permissions$/;"	f	class:Admin
+remove	app/controllers/tags_controller.rb	/^  def remove$/;"	f	class:TagsController
+reset_request_count	app/models/user.rb	/^  def self.reset_request_count!$/;"	F	class:User
+search	app/controllers/tickets_controller.rb	/^  def search$/;"	f	class:TicketsController
+selector_for	features/support/selectors.rb	/^  def selector_for(locator)$/;"	f	class:HtmlSelectorsHelpers
+set_previous_state	app/models/comment.rb	/^    def set_previous_state$/;"	f	class:Comment
+set_ticket_state	app/models/comment.rb	/^    def set_ticket_state$/;"	f	class:Comment
+shou	app/controllers/admin/users_controller.rb	/^  def shou$/;"	f	class:Admin
+show	app/controllers/apis/v1/projects_controller.rb	/^  def show$/;"	f	class:Apis
+show	app/controllers/apis/v2/projects_controller.rb	/^  def show$/;"	f	class:Apis
+show	app/controllers/files_controller.rb	/^  def show$/;"	f	class:FilesController
+show	app/controllers/projects_controller.rb	/^  def show$/;"	f	class:ProjectsController
+show	app/controllers/tickets_controller.rb	/^  def show$/;"	f	class:TicketsController
+state_for	app/helpers/tickets_helper.rb	/^  def state_for(comment)$/;"	f	class:TicketsHelper
+tag!	app/models/ticket.rb	/^  def tag!(tags)$/;"	f	class:Ticket
+title	app/helpers/application_helper.rb	/^  def title(*parts)$/;"	f	class:ApplicationHelper
+title	app/models/project.rb	/^  def title$/;"	f	class:Project
+to_s	app/models/state.rb	/^  def to_s$/;"	f	class:State
+to_s	app/models/user.rb	/^  def to_s$/;"	f	class:User
+toggle_watching_button	app/helpers/tickets_helper.rb	/^  def toggle_watching_button$/;"	f
+up	db/migrate/20120414034144_devise_create_users.rb	/^  def self.up$/;"	F	class:DeviseCreateUsers
+up	db/migrate/20120416042022_add_attachment_asset_to_tickets.rb	/^  def self.up$/;"	F	class:AddAttachmentAssetToTickets
+up	db/migrate/20120416155905_create_states.rb	/^  def up$/;"	f	class:CreateStates
+update	app/controllers/admin/permissions_controller.rb	/^  def update$/;"	f	class:Admin
+update	app/controllers/admin/users_controller.rb	/^  def update$/;"	f	class:Admin
+update	app/controllers/apis/v1/projects_controller.rb	/^  def update$/;"	f	class:Apis
+update	app/controllers/apis/v2/projects_controller.rb	/^  def update$/;"	f	class:Apis
+update	app/controllers/projects_controller.rb	/^  def update$/;"	f	class:ProjectsController
+update	app/controllers/tickets_controller.rb	/^  def update$/;"	f	class:TicketsController
+watch	app/controllers/tickets_controller.rb	/^  def watch$/;"	f	class:TicketsController
+with_scope	features/step_definitions/web_steps.rb	/^  def with_scope(locator)$/;"	f	class:WithinHelpers
